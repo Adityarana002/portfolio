@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header class="nav-bar">
+        <nav class="nav-bar-container">
+            <div class="nav-name-container">
+                <h1 class="nav-name">Portfolio</h1>
+            </div>
+            <div class="nav-list">
+                <ul class="nav-list-container">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- About Intro Section -->
+    <section class="about-intro" id="about-intro">
+        <img src="./images/bear.jpeg" alt="Profile" />
+        <div class="intro-content-container">
+            <p class="intro-content">Hi! I'm <span>Aditya Rana</span>,<br>
+                I'm a Computer Science Engineering student <br>
+                Uttaranchal University <br>
+                Dehradun, India <br>
+            </p>
+            <div class="icon-links">
+                <a href="https://www.linkedin.com/in/aditya-rana-b6636b203/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                <a href="https://github.com/Adityarana002"><i class="fa-brands fa-github fa-2x"></i></a>
+                <a href="mailto:aditya.vigntsix@gmail.com"><i class="fa-solid fa-envelope fa-2x"></i></a>    
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="about-heading">About Me</h2>
+            <div class="about-grid">
+                <div class="about-cards">
+                    <!-- Programming Languages Card -->
+                    <div class="card">
+                        <h2 class="card-title">Programming Languages</h2>
+                        <div class="card-content">
+                            <img src="./images/html5.png" alt="HTML5" class="skill-icon">
+                            <img src="./images/css3.png" alt="CSS3" class="skill-icon">
+                            <img src="./images/javascript.png" alt="JavaScript" class="skill-icon">
+                            <img src="./images/java.png" alt="Java" class="skill-icon">
+                            <img src="./images/kotlin-logo.png" alt="Kotlin" class="skill-icon">
+                            <img src="./images/csharp.png" alt="C#" class="skill-icon">
+                        </div>
+                    </div>
+
+                    <!-- Tools Card -->
+                    <div class="card">
+                        <h2 class="card-title">Tools</h2>
+                        <div class="card-content">
+                            <img src="./images/vscode.png" alt="VS Code" class="skill-icon">
+                            <img src="./images/android_studio.png" alt="Android Studio" class="skill-icon">
+                            <img src="./images/intellij.png" alt="IntelliJ IDEA" class="skill-icon">
+                            <img src="./images/github.png" alt="GitHub" class="skill-icon">
+                            <img src="./images/react.png" alt="ReactJS" class="skill-icon">
+                        </div>
+                    </div>
+                </div>
+                <div class="about-education">
+                    <h2 class="about-education-head">Education</h2>
+                    <ul class="skills-list">
+                        <li><strong>Secondary School Certificate</strong><br>
+                            Shivedale School, Haridwar <br>
+                            May 2019
+                        </li>
+                        <li><strong>Higher Secondary Certificate</strong><br>
+                            BML Munjal Green Meadows School, Haridwar <br>
+                            May 2021
+                        </li>
+                        <li><strong>B.Tech. in Computer Science Engineering</strong><br>
+                            Uttaranchal University, Dehradun
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="projects-heading">Projects</h2>
+        <div class="projects-grid">
+            <!-- Project Card 1 -->
+            <div class="project-card">
+                <img src="./images/Animania-project.png" alt="Project 1" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Landing Page</h3>
+                    <p class="project-description">A Landing Page to an anime streaming website which has a responsive design and basic interactivity features.</p>
+                    <div class="tech-icons">
+                        <img src="./images/html5.png" alt="HTML5" class="tech-icon">
+                        <img src="./images/css3.png" alt="CSS3" class="tech-icon">
+                        <img src="./images/javascript.png" alt="JavaScript" class="tech-icon">
+                    </div>
+                    <a href="https://github.com/Adityarana002/AniMania.git" class="project-link" target="_blank">Check GitHub</a>
+                </div>
+            </div>
+            
+            <!-- Project Card 2 -->
+            <div class="project-card">
+                <img src="./images/WeatherWeb-project.png" alt="Project 1" class="project-image">
+                <div class="project-info">
+                    <h3 class="project-title">Weather Website</h3>
+                    <p class="project-description">A responsive Website which shows the 
+                        weather related information of any place. <br> 
+                        I works by fetching the infromation from the openweather api 
+                        and displays the information of the screen.</p>
+                    <div class="tech-icons">
+                        <img src="./images/html5.png" alt="HTML5" class="tech-icon">
+                        <img src="./images/css3.png" alt="CSS3" class="tech-icon">
+                        <img src="./images/javascript.png" alt="JavaScript" class="tech-icon">
+                    </div>
+                    <a href="https://github.com/Adityarana002/AniMania.git" class="project-link" target="_blank">Check GitHub</a>
+                </div>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </section>
+
+    <!--Certification section-->
+    <section class="certifications" id="certifications">
+        <h2 class="certifications-heading">Certifications</h2>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="./images/certificate1.png" alt="Certification 1" class="gallery-image">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <a href="./pdf/certificacion1.pdf" class="download-link" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-item">
+                <img src="./images/certificate2.png" alt="Certification 2" class="gallery-image">
+                <div class="gallery-overlay">
+                    <div class="overlay-content">
+                        <a href="./pdf/certificacion2.pdf" class="download-link" target="_blank">View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="contact-heading">Contact Me</h2>
+        <div class="contact-info">
+            <p class="contact-description">Feel free to reach out to me through any of the following platforms:</p>
+            <div class="contact-methods">
+                <div class="contact-method">
+                    <a href="mailto:Aditya.vigntsix@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+                </div>
+                <div class="contact-method">
+                    <a href="tel:+1234567890"><i class="fas fa-phone fa-2x"></i></a>
+                </div>
+                <div class="contact-method">
+                    <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                </div>
+                <div class="contact-method">
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--back to top button-->
+    <button class="button">
+        <svg class="svgIcon" viewBox="0 0 384 512">
+        <path
+            d="M214.6 41.4c-12.5-12.5-32.8-12.5-45.3 0l-160 160c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L160 141.2V448c0 17.7 14.3 32 32 32s32-14.3 32-32V141.2L329.4 246.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3l-160-160z"
+        ></path>
+        </svg>
+    </button>
+  
+  <script src="script.js"></script>
+</body>
+</html>
